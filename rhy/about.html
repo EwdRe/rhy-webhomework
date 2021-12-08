@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/main.css" type="text/css" rel="stylesheet">
+<link href="../css/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.ico">
+	<style>
+		.logoi{z-index:9;}
+		.about{
+			
+			background: #fff;
+			border-radius: 15px;
+			weight:80%;
+			height:auto;
+			opacity:0.8;
+			z-index:-1;
+			padding-top: 100px;
+			margin-top: 100px;
+			position: relative;
+		text-align: center;
+		z-index:1;
+		}
+		.text{
+			width:70%;
+			margin:auto;
+			z-index:999;
+			margin-top:20px;
+		}
+		.bt a{
+			width:75px;
+			height: 50px;
+			background: #66CCCC;
+			font-size:20px;
+			padding: 10px;
+			border-radius: 0px;
+			
+		}
+		.tree{width:400px;}
+	</style>
+<title>0928任浩毅-index</title>
+
+	
+</head>
+
+<body background="../images/aboutbg.jpg">
+	
+<div class="logoi">
+			<div class="logoin">
+				<a href="../index.html" alt="0340的家乡">
+					
+						<strong>RHY</strong>
+						<rt>的家乡——洛阳</rt>
+					
+				</a>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>首页</a></li>
+					<li><a href="../pages/main.html"><i class="fa fa-bandcamp" aria-hidden="true"></i>简介</a></li>
+					<li><a href="../pages/history.html"><i class="fa fa-book" aria-hidden="true"></i>历史</a></li>
+					<li>
+						<a href="../pages/vista.html"><i class="fa fa-map" aria-hidden="true"></i>景点</a>
+						
+					</li>
+					<li>
+						<a href="../pages/food.html"><i class="fa fa-cutlery" aria-hidden="true"></i>美食</a>
+						
+					</li>
+					<li><a href="../pages/tran.html"><i class="fa fa-subway" aria-hidden="true"></i>交通</a></li>
+					<li>
+						<li><a href="../pages/dili.html"><i class="fa fa-globe" aria-hidden="true"></i>地理环境</a></li>
+					<li>
+						<a href="../pages/people.html"><i class="fa fa-user-circle" aria-hidden="true"></i>历代名人</a>
+					
+					</li>
+					<li>
+						<a href="../pages/social.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>社会事业</a>
+						
+					</li>
+				
+				
+			
+					<li><a href="./about.html"><i class="fa fa-home" aria-hidden="true"></i>作业说明</a></li>
+			
+			
+	</div>
+		</div>
+	
+	
+	
+	
+		<div class="about">
+
+					
+					<div class="bt">
+					
+					<a href="#gl">整体概览</a>
+					<a href="#gc">创作过程</a>
+					<a href="#jg">网站结构</a>
+					<a href="#cl">所用材料</a>
+						
+					
+					
+					
+					
+					</div>
+				<div class="text">
+						<h1 id="gl">整体概览</h1>
+					
+					<p>我使用了HTML5+CSS3 ,在DreamWeaver2020上完成了开发，使用了一些外部材料比如wordpress的主题“sakura”的CSS、fontwaresome的矢量小图标、壁纸网站wall-haven的一些壁纸等媒体资料，一些知识是在维基百科和百度百科上查的，以及结合我自己对家乡的认识写的。我是每天写一点，大概总共花了
+					
+					</p>
+					<p>网页源码已经上传到了Github仓库（<a href="https://github.com/renhy04/rhy-webhomework">链接</a>）以及我自己的博客里（<a href="https://rerizon.cn/?p=772">链接</a>）</p>
+					
+					
+					
+						<h1 id="gc">创作过程</h1>
+						
+				
+							<p>说实话刚接到这份作业的时候我其实挺高兴的，因为可以有一个发挥自己的空间了，随即我就开始规划了这份作业。
+			</p><img src="../images/emoji1.jpg" width="200px" height="200px">
+			<p>但随后我就发现了不是那么容易，我之前只有使用一些程序（wordpress、宝塔面板）等经历 ，或是修改一些html网页文件，现在第一次自己手写html，确实是好多问题。
+					
+				<p>第一个问题是我上面的菜单栏，我发现下面的内容会挡，后来多次谷歌百度学会了使用"z-index"来修改,但是如果让导航条置顶，下面的链接又失效了，最后我选择了留出空间来解决问题。
+			
+				之后又是壁纸缩放问题，又是一顿谷歌，通过了添加了一些<del>我看不懂的CSS</del>来解决了
+				</p>
+					<p>还有路径问题，由于导航栏我是直接复制粘贴，在一些下级文件夹需要用../路径穿越到上层，所以就一点点的debug。
+				</p>
+					<img src="../images/emoji2.jpg" width="200px" height="200px">
+					<p>总之做作业的过程中出现了好多问题，我通过翻阅教材/百度等方式解决了大部分，还有一些小的bug没有解决，比如移动端的适配或是窄屏幕的适配问题</p>
+					<p>做完后最后悔的一点就是没有用模板，最早觉得模板麻烦，反正导航条都一样，直接复制粘贴。结果后来，改一个锚点链接，直接改10遍，”惨痛教训。</p>
+					
+					<p>本来我的CSS在每个页面的style标签中写，后来考虑了多个页面的导航条，背景等css是通用的，就把一些都要用到的CSS放在了Main.css里面，供每个页面调用，有一些页面的导航条有遮挡问题，我就删掉了一些页面的二级菜单或是自动隐藏。</p>
+					<p>通过这次的作业，我也算是有了一次前端网页开发经验，也明白了完成一个前端工程的复杂性，懂得了命名规范、代码规范的重要性</p>
+					<h1 id="jg">网站结构</h1>
+					<div class="tree">
+				<ul>
+					<li> Index.html —— 首页</li>
+					<li> pages —— 存放页面文件夹</li>
+					<ul>
+					<li>dili.html —— </li>
+						<li>main.html —— 简介</li>
+						<li>history.html —— 历史</li>
+						<li>vista.html —— 景点</li>
+						<li>food.html —— 美食</li>
+						<li>tran.html —— 交通</li>
+						<li>dili.html —— 地理环境</li>
+						<li>people.html —— 历代名人</li>
+						<li>social.html —— 社会事业</li>
+						
+					</ul>
+					<li>CSS —— 存放一些公用CSS文件夹</li>
+					<ul>
+					     <li>main.css —— 两种导航栏CSS、页脚CSS、全局文字CSS</li>
+						<li>index.css —— 首页的CSS</li>
+						<li>font-awaresome—— 引用Font-awaresome图标库</li>
+						
+						
+					</ul>
+					<li>images —— 存放全站图片文件夹</li>
+					<li>rhy —— 存放站点描述文件夹</li>
+					
+					</ul>
+					</div>
+					
+					     <h1 id="cl">所用材料</h1>
+							1.Sakura主题仓库：<a href="https://gitee.com/mashirozx/Sakura/">点此进入</a><br/>
+					2.Fontwaresome图标仓库：<a href="http://www.fontawesome.com.cn/faicons/">点此进入</a><br/>
+					3.Wallhaven壁纸站：<a href="https://wallhaven.cc/">点此进入</a><br/>
+					4.百度百科：<a href="https://baike.baidu.com/">点此进入</a>
+								</div>
+							
+	</div>
+			
+			
+			
+			
+							<div class="footer">
+								
+								<p>Copyright &copy;2021 21级软件9班 任浩毅 All Rights Reserved.</p>
+								</div>
+							
+</body>
+			
+							 
+</html>
